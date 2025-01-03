@@ -4,24 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Base Structure</title>
+  <link rel="stylesheet" href="pageWeb.css">
 </head>
 <body>
 
   <!-- Navigation Bar -->
-  <nav>
-    <ul>
+  <nav class="navbar">
+    <div class="logo">logo</div>
+    <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <button class="btn-primary">Sign In</button>
   </nav>
 
   <!-- Hero Section -->
-  <section id="hero">
-    <h1>Welcome to Our Website</h1>
-    <p>Your journey begins here.</p>
-    <a href="#learn-more">Learn More</a>
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Our Website</h1>
+      <p>Your journey begins here.</p>
+      <button class="btn-secondary">Learn More</button>
+    </div>
+    <div class="hero-image">
+      <img src="image-placeholder.jpg" alt="Hero image">
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section id="why-us" class="why-us">
+    <h2>Why Choose Us?</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <img src="ticket.svg.png" alt="Flexibility">
+        <h3>Ultimate Flexibility</h3>
+        <p>Get the control you need with free cancellations and payments that suit any plan or budget.</p>
+      </div>
+      <div class="feature">
+        <img src="medal.svg.png" alt="Memorable Experiences">
+        <h3>Memorable Experiences</h3>
+        <p>Browse and book incredible tours and activities you'll want to tell everyone about.</p>
+      </div>
+      <div class="feature">
+        <img src="diamond.svg.png" alt="Quality">
+        <h3>Quality</h3>
+        <p>Top standards. Millions of reviews.</p>
+      </div>
+      <div class="feature">
+        <img src="award-winning.svg.png" alt="Support">
+        <h3>Award-winning Support</h3>
+        <p>New price? New plan? No problem. We’re here to help you 24/7.</p>
+      </div>
+    </div>
   </section>
 
 </body>
